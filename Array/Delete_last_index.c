@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int A[20] = {10,20,30,40,50};
+    int N=5;
+    N=N-1;
+    for(int i=0;i<N;i++){
+        printf("%d ",A[i]);
+    }
+}
+
